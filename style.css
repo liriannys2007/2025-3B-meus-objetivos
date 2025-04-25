@@ -37,7 +37,9 @@ body{
 
 .botao{
     font-family: var(--fonte-primaria);
-    background-color: var(--verde);
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--vermelho);
     color: var(--preto);
     display: flex;
     justify-content: center;
@@ -64,7 +66,7 @@ body{
 }
 
 .ativo{
-    background-color: var(--vermelho);
+    background-color: var(--verde);
     border-bottom: var(--roxo);
 }
 
@@ -95,6 +97,7 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
+
 @media screen and (min-witdh: 768px){
     .botoes{
         display: flex;
