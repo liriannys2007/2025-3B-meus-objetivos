@@ -1,8 +1,12 @@
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll("aba-conteudo");
+
 const contadores = document.querySelectorAll(".contador");
 
 const tempoObjetivo01 = new Date("2025-05-05T00:00:00");
+const tempoObjetivo02 = new Date("2025-05-05T00:00:00");
+const tempoObjetivo03 = new Date("2025-05-05T00:00:00");
+const tempoObjetivo04 = new Date("2025-05-05T00:00:00");
 let tempoAtual = new Date();
 
 contadores[0].textContent =tempoObjetivo01 - tempoAtual
